@@ -169,6 +169,16 @@
 .sponsor-company img{
     filter: grayscale(100%);
 }
+/* footer section  */
+.footer-section{
+    text-align: center;
+    margin: 0 auto;
+    padding: 38px 400px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    background-color: #FFF4E7;
+}
 
 /* responsive media query */
 /* small size devices */
@@ -176,7 +186,8 @@
     .navbar, 
     .nav-link,
     .teams,
-    .features-enjoy{
+    .features-enjoy
+    {
         flex-direction: column;
     }
     .team-img-container, .facts-container, .sponsor-company{
@@ -196,6 +207,9 @@
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer-section{
+        padding: 38px 40px;
     }
     
 }
